@@ -1,8 +1,7 @@
 version: 0.0
 os: linux
-files:
-	- source: .
-	  destination: /opt/basic-web
 hooks:
+	ApplicationStop:
+		- location: ./scripts/stopApp.sh
 	ApplicationStart:
 		- location: ./scripts/startApp.sh
