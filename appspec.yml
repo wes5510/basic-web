@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-  	- loclocation: scripts/initApp.sh
+  	- location: scripts/initApp.sh
   ApplicationStop:
     - location: scripts/stopApp.sh
   ApplicationStart:
