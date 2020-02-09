@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 hooks:
-	ApplicationStop:
-		- location: ./scripts/stopApp.sh
-	ApplicationStart:
-		- location: ./scripts/startApp.sh
+  ApplicationStop:
+    - location: ./scripts/stopApp.sh
+  ApplicationStart:
+    - location: ./scripts/startApp.sh
